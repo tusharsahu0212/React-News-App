@@ -1,0 +1,171 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.flexBox1{
+    background-color: #ebf8faa8;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    height: 100px;
+    scroll-behavior: smooth;
+    overflow-x: scroll;
+    padding: 0px auto;
+    margin: 0px auto;
+    width: 53vw;
+
+}
+
+@media screen and (max-width:700px) {
+
+    
+.flexBox1{
+    background-color: #ebf8faa8;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    height: 100px;
+    scroll-behavior: smooth;
+    overflow-x: scroll;
+    padding: 0px auto;
+    margin: 0px auto;
+    width: 90vw;
+
+}
+    
+}
+
+.flexBox2{
+    background-color: #ebf8faa8;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    height: 100px;
+    scroll-behavior: smooth;
+    overflow-x: scroll;
+    padding: 0px auto;
+    margin: 0px auto;
+    width: 90vw;
+
+}
+
+.flexBox button{
+
+    background-color: rgb(8 54 101);
+    color: white;
+    padding: 2px 25px;
+    height: 50px;
+    width: auto;
+    border-radius: 15px;
+    border-color: white;
+    border-width: 5px;
+}
+
+.flexBox button:hover{
+
+    background-color: rgba(7, 43, 79, 0.659);
+}
+
+.flexBox button:active{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border-color: black;
+}
+
+
+.newsContainer{
+    background-color: #f7f3f3cf;
+    margin: 30px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    gap: 20px 50px;
+    border-radius: 20px;
+
+}
+
+.card{
+    background-color: white;
+    max-width: 400px;
+    height: 540px;
+    width: 65vw;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px;
+}
+
+.card img{
+    max-height: 220px;
+    max-width: 318px;
+    height: 25vh;
+    width: 47vw;
+    margin: 8px 25px;
+    border-radius: 10px;
+}
+
+.card button {
+    height: 40px;
+    width: 110px;
+    font-weight: bold;
+    margin: 28px 25px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px;
+}
+
+.card button:hover{
+    scale: 1.1;
+}
+
+.card button:active{
+    background-color: #5e6265;
+    color: white;
+}
+
+form{
+    margin: 6vh 7vw;
+}
+
+form input{
+    height: 35px;
+    width: 210px;
+}
+
+form button{
+    position: relative;
+    top: 6px;
+    background-color: #b3c1ce;
+}
+
+.footer{
+    width: 100%;
+    background-color: #1976d2;
+    color: white;
+    padding: 36px 42px;
+}
+
+.footer ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 18px;
+}
+
+.footer ul li{
+    list-style: none;
+    color: white;
+}
+
+.footer ul li a{
+
+        color: white;
+}
